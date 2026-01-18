@@ -7,7 +7,7 @@ import PageTwo from './components/PageTwo';
 import PageThree from './components/PageThree';
 import PageFour from './components/PageFour';
 
-const App: React.FC = () => {
+export default function App() {
   const [currentPage, setCurrentPage] = useState(1);
 
   const nextPage = () => setCurrentPage((prev) => prev + 1);
@@ -21,7 +21,7 @@ const App: React.FC = () => {
         spread: 360, 
         ticks: 60, 
         zIndex: 0,
-        colors: ['#a78bfa', '#c4b5fd', '#ddd6fe', '#8b5cf6'] // Lavender/Violet palette
+        colors: ['#a78bfa', '#c4b5fd', '#ddd6fe', '#8b5cf6'] 
       };
 
       const randomInRange = (min: number, max: number) => Math.random() * (max - min) + min;
@@ -42,8 +42,6 @@ const App: React.FC = () => {
     }
   }, [currentPage]);
 
-  // A shared romantic transition configuration
-  // Fix: Added explicit tuple type to 'ease' to prevent 'number[]' inference which causes type mismatch in motion.div props
   const pageTransition = {
     initial: { opacity: 0, scale: 0.95 },
     animate: { opacity: 1, scale: 1 },
@@ -61,7 +59,7 @@ const App: React.FC = () => {
           <motion.div
             key="page1"
             {...pageTransition}
-            className="w-full h-full"
+            className="w-full h-full flex items-center justify-center"
           >
             <PageOne onNext={nextPage} />
           </motion.div>
@@ -71,7 +69,7 @@ const App: React.FC = () => {
           <motion.div
             key="page2"
             {...pageTransition}
-            className="w-full h-full"
+            className="w-full h-full flex items-center justify-center"
           >
             <PageTwo onNext={nextPage} />
           </motion.div>
@@ -81,7 +79,7 @@ const App: React.FC = () => {
           <motion.div
             key="page3"
             {...pageTransition}
-            className="w-full h-full"
+            className="w-full h-full flex items-center justify-center"
           >
             <PageThree onNext={nextPage} />
           </motion.div>
@@ -99,6 +97,4 @@ const App: React.FC = () => {
       </AnimatePresence>
     </div>
   );
-};
-
-export default App;
+}
