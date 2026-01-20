@@ -2,10 +2,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
-import PageOne from './components/PageOne';
-import PageTwo from './components/PageTwo';
-import PageThree from './components/PageThree';
-import PageFour from './components/PageFour';
+import PageOne from './components/PageOne.tsx';
+import PageTwo from './components/PageTwo.tsx';
+import PageThree from './components/PageThree.tsx';
+import PageFour from './components/PageFour.tsx';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState(1);
