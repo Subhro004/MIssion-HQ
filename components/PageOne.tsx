@@ -47,7 +47,7 @@ const PageOne: React.FC<PageOneProps> = ({ onNext }) => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        I wanted to ask you one thing for a long time... <br/>
+        I have been holding something in my heart for a long time... <br/>
         <span className="italic">May I ask now?</span>
       </motion.p>
 

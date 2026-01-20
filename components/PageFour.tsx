@@ -50,17 +50,18 @@ const PageFour: React.FC = () => {
           <div className="space-y-5 text-base sm:text-xl md:text-2xl text-violet-900 leading-relaxed font-playful italic px-4 md:px-10">
             <p className="font-semibold text-violet-600">"In a world full of chaos, you are my peace"</p>
             <p>
-              Subhangee, your smile is my sunrise, your name is the melody my heart beats to and your eyes..... 
-              Sorry I zoned out. Where was I? 
-            </p>
-            <p>
-              Yes I was saying Thank you for being my anchor, my best friend, and now, my Valentine. 
-              Here's to endless laughter, endless running dates and metro station bokboks. 
-            </p>
-            <p>
+              Thank you for being my anchor, my best friend, and now, my Valentine. Here's to endless laughter, endless running dates and metro station bokboks. 
               I tried my best to make the handwriting better than yours hehe, but I believe our love is even more beautiful.
             </p>
-            <p className="font-bold text-2xl sm:text-4xl pt-6 text-violet-700 not-italic font-romance">I love you, now and always.</p>
+            <p>
+              I will stop here... not because there's nothing more to say, but because some feelings deserve the right day.
+            </p>
+            <p className="font-medium text-violet-500">
+              This is only the first chapter.
+            </p>
+            <p className="font-bold text-2xl sm:text-4xl pt-6 text-violet-700 not-italic font-romance">
+              Subhranil Ghosh will return...
+            </p>
           </div>
 
           <motion.div 
