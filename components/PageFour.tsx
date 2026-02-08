@@ -51,7 +51,7 @@ const PageFour: React.FC = () => {
             <p className="font-semibold text-violet-600">"In a world full of chaos, you are my peace"</p>
             <p>
               Thank you for being my anchor, my best friend, and now, my Valentine. Here's to endless laughter, endless running dates and metro station bokboks. 
-              I tried my best to make the handwriting better than yours hehe, but I believe our love is even more beautiful.
+              I even tried my best to make my handwriting better than yours... failed ofcourse, but I believe our love is even more beautiful
             </p>
             <p>
               I will stop here... not because there's nothing more to say, but because some feelings deserve the right day.

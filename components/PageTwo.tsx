@@ -37,8 +37,8 @@ const PageTwo: React.FC<PageTwoProps> = ({ onNext }) => {
 
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 w-full max-w-2xl px-4 z-10">
         {[
-          { text: "Yesssssssssss absolutely", delay: 0 },
-          { text: "Definitely Yesssssssssss", delay: 0.1 }
+          { text: "OBVIOULSY YESSSSSSSSSS", delay: 0 },
+          { text: "OFCOURSE YESSS, I ALREADY LOVE YOU", delay: 0.1 }
         ].map((option, idx) => (
           <motion.button
             key={idx}

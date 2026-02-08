@@ -63,7 +63,7 @@ const PageOne: React.FC<PageOneProps> = ({ onNext }) => {
         className="bg-violet-500 text-white px-6 py-4 sm:px-10 sm:py-5 rounded-full text-base sm:text-xl font-bold shadow-2xl transition-all duration-300 flex items-center gap-3 relative overflow-hidden group active:scale-95"
       >
         <span className="relative z-10 flex items-center gap-3">
-          Askkk, I am all ears for you <Heart size={24} fill="white" className="sm:w-7 sm:h-7 group-hover:animate-pulse" />
+          Askk, You have my undivided attention <Heart size={24} fill="white" className="sm:w-7 sm:h-7 group-hover:animate-pulse" />
         </span>
         <motion.div 
           className="absolute inset-0 bg-violet-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" 
